@@ -8,7 +8,7 @@ from Elgamel.decrypt import decrypt_msg, decrypt, decrypt_msg_numerical
 blocksize = 4
 
 
-message = 'HELLO'
+message = 'I LOVE PIKU'
 
 start = time.perf_counter_ns()
 alice_private_key, alice_public_key = keyGen(blocksize)
